@@ -1,0 +1,134 @@
+:root {
+  --bs-border-color: rgba(255,255,255,0.4);
+  --bs-background-color: black;
+  --bs-main-color: #48ac21;
+  --bs-text-color: #f3d8ca;
+}
+
+body {
+  background-image: 
+    linear-gradient(360deg, #000000d0, #000000d0), 
+    url(../images/background.png);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  margin: 0;
+  background-color: var(--bs-background-color);
+  color: var(--bs-text-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Roboto Mono', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.al-h {
+  display: flex;
+  flex-direction: row;
+}
+
+.al-v {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  height: 150px;
+  background-image: url(../images/title-bg.jpg);
+}
+
+.main-title h1 {
+  font-family: 'Pauraque_Serif_Rough';
+  font-size: 60px;
+}
+
+.container {
+  padding: 2rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 2rem; */
+}
+
+.title {
+  margin-bottom: 1rem;
+  padding: 1rem 0rem 0.5rem;
+  border-bottom: solid 2px #48ac21;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title div {
+  font-family: 'Lombardic Narrow';
+}
+
+.meta-card {
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.line-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-container>.line-desc div {
+  font-family: "Reikna";
+}
+
+.stat-area {
+  display: flex;    
+  flex-direction: row;
+  width: 100%;
+}
+
+.user-panel {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.global-panel {
+  width: 50%;
+}
+
+.mint-panel {
+  width: 100%;
+  max-width: 800px;
+}
+
+.card-node {
+  margin : 1rem;
+  padding : 1rem;
+  background-color: #0000005e;
+  border-radius: 15px;
+}
+
+.card-node h1 {
+  margin-block-start: 0;
+}
+
+.node-content {
+  display: flex;
+  flex-direction: row;
+}

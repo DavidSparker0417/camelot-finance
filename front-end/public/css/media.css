@@ -1,0 +1,35 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  
+  .container {
+    padding: 0.5rem
+  }
+
+  .main-title h1{
+    display: none;
+  }
+
+  .stat-area {
+    flex-direction: column;
+  }
+  
+  .user-panel {
+    width: 100%;
+    margin-right: 0rem;
+  }
+  
+  .global-panel {
+    width: 100%;
+  }
+
+  .node-content {
+    flex-direction: column;
+  }
+
+  .node-content h3 {
+    font-size: 15px;
+  }
+
+  .card-node h1 {
+    font-size: 20px;
+  }
+}
